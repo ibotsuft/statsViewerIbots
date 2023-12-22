@@ -1,0 +1,15 @@
+<main class="about">
+  <h1>About</h1>
+  <p>
+    This is an web application for the iBots UFT RoboCup 2D Soccer League team.
+  </p>
+  <p>
+    The objective is to permit a post-game analysis based in statistics as we
+    consider the importance of stats in sports in general.
+  </p>
+  <p>
+    We are using this json template below. When a match finishes, a json file is
+    generated with the stats
+  </p>
+  <pre [innerHTML]="jsonData | prettyjson : [true, 4]"></pre>
+</main>

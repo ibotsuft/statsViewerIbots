@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+pre {
+  background-color: rgba(0, 0, 0, 0.526);
+  color: white;
+  font-weight: 400;
+
+  .number-line {
+    color: #adadaf;
+  }
+  .string {
+    color: #95c602;
+  }
+  .number {
+    color: #f2b619;
+  }
+  .boolean {
+    color: #0097f1;
+  }
+  .null {
+    color: #727990;
+  }
+  .key {
+    color: #fff;
+  }
+}

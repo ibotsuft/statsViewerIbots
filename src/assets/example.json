@@ -1,0 +1,32 @@
+{
+  "ourTeamName": "Team 1",
+  "opponentTeamName": "Team 2",
+  "ourNumberGoals": 3,
+  "opponentNumberGoals": 1,
+  "shots": {
+    "ourShots": 15,
+    "opponentShots": 8,
+    "ourShotsOnTarget": 6,
+    "opponentShotsOnTarget": 3
+  },
+  "passes": {
+    "ourPasses": 527,
+    "opponentPasses": 320,
+    "ourCorrectPasses": 498,
+    "opponentCorrectPasses": 286,
+    "ourMissedPasses": 29,
+    "opponentMissedPasses": 34,
+    "ourPercentualCorrectedPasses": 94.5,
+    "opponentPercentualCorrectedPasses": 89.4
+  },
+  "ballPossession": {
+    "ourBallPossession": 3427,
+    "opponentBallPossession": 2573,
+    "ourBallPossessionPercentual": 57.1,
+    "opponentBallPossessionPercentual": 42.9
+  },
+  "ourFouls": 7,
+  "opponentFouls": 3,
+  "ourCorners": 2,
+  "opponentCorners": 1
+}
