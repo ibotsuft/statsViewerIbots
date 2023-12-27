@@ -1,0 +1,17 @@
+.group-match {
+  /* background-color: bisque; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-match-csv {
+  /* background-color: brown; */
+  padding: 15px;
+  text-align: center;
+}
+
+.group-match-info {
+  padding: 15px;
+  border-top: #333 1px solid;
+}

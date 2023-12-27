@@ -1,0 +1,32 @@
+{
+  "ballPossession": {
+    "opponentBallPossession": 1401,
+    "opponentBallPossessionPercentual": 46.51394271850586,
+    "ourBallPossession": 1611,
+    "ourBallPossessionPercentual": 53.48605728149414
+  },
+  "opponentCorners": 0,
+  "opponentFouls": 0,
+  "opponentNumberGoals": 0,
+  "opponentTeamName": "RoboCin_3",
+  "ourCorners": 1,
+  "ourFouls": 0,
+  "ourNumberGoals": 0,
+  "ourTeamName": "iBots_Dev_3",
+  "passes": {
+    "opponentCorrectPasses": 0,
+    "opponentMissedPasses": 0,
+    "opponentPasses": 0,
+    "opponentPercentualCorrectedPasses": 0.0,
+    "ourCorrectPasses": 384,
+    "ourMissedPasses": 15,
+    "ourPasses": 399,
+    "ourPercentualCorrectedPasses": 96.2406005859375
+  },
+  "shots": {
+    "opponentShots": 5,
+    "opponentShotsOnTarget": 5,
+    "ourShots": 1,
+    "ourShotsOnTarget": 1
+  }
+}

@@ -1,7 +1,8 @@
 <header class="header">
-  <div class="logo">{{ title }}</div>
-  <nav>
-    <a routerLink="/">Home</a>
+  <div class="header__logo">
+    <a routerLink="/">{{ title }}</a>
+  </div>
+  <nav class="header__nav">
     <a>Upload Json: <input type="file" (change)="onFileChange($event)" /></a>
     <a routerLink="/about">About</a>
   </nav>

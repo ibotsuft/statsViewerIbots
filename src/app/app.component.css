@@ -1,32 +1,37 @@
 header {
   background-color: #333;
-  color: #fff;
+  color: rgb(243, 243, 193);
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  font-size: 1.5em;
+.header__logo :hover {
+  color: #ec7f7f;
 }
 
-nav {
+.header__logo a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(243, 243, 193);
+}
+
+.header__nav {
   display: flex;
 }
 
-nav a {
-  color: #fff;
+.header__nav a {
+  color: rgb(243, 243, 193);
   text-decoration: none;
   padding: 10px;
   margin: 0 5px;
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0px;
   background-color: #333;
-  color: #fff;
+  color: rgb(243, 243, 193);
   padding: 10px;
-  width: 100%;
 }

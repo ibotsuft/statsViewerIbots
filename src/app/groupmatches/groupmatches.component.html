@@ -1,0 +1,44 @@
+<main class="group-match">
+  <div style="border-bottom: #333 1px solid; padding: 15px">
+    <p>
+      The input below will upload all files from the chosen directory. Must be
+      one csv file and all others must be json files.
+    </p>
+    <input
+      type="file"
+      webkitdirectory
+      directory
+      multiple
+      (change)="onFileChange($event)"
+    />
+  </div>
+  <section class="group-match-csv">
+    <h2 style="text-align: center">Group Match CSV (rcsserver)</h2>
+    <div>{{ data }}</div>
+    <div>{{ data.headers }}</div>
+    <div>{{ data.rows }}</div>
+    <table>
+      <thead>
+        <tr>
+          <th *ngFor="let header of data.headers">{{ header }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of data.rows">
+          <td *ngFor="let cell of row">{{ cell }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section class="group-match-info">
+    <h2 style="text-align: center">Group Match</h2>
+    <table>
+      <thead>
+        <tr>
+          <th *ngFor="let header of dataJson.headers">{{ header }}</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+</main>

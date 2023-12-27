@@ -21,7 +21,6 @@ export class AboutComponent implements OnInit {
     this.http.get(jsonFilePath).subscribe(
       (data: any) => {
         this.jsonData = data;
-        console.log(this.jsonData);
       },
       (error) => {
         console.error('Error fetching JSON:', error);
