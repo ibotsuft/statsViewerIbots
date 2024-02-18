@@ -2,10 +2,10 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatButtonModule } from '@angular/material/button';
-import { PlayersStatsComponent } from '../players-stats/players-stats.component';
+import { PlayersStatsComponent } from '../../components/players-stats/players-stats.component';
 import { Subscription } from 'rxjs';
-import { FileShareService } from '../file-share.service';
-import { GroupmatchesModule } from '../groupmatches/groupmatches.module';
+import { FileShareService } from '../../file-share.service';
+import { GroupmatchesModule } from '../../components/groupmatches/groupmatches.module';
 
 @Component({
   selector: 'app-home',
