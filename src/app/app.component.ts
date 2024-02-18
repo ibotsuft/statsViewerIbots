@@ -18,7 +18,7 @@ import { FileShareService } from './file-share.service';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'StatsViewer';
+  title = 'Web Dashboard for RoboCup 2D Log Data';
 
   constructor(private fileShareService: FileShareService) {}
 
