@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
-import { FileShareService } from './file-share.service';
+import { FileShareService } from './services/file-share.service';
+import { HomeModule } from './pages/home/home.module';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,7 @@ import { FileShareService } from './file-share.service';
     RouterLink,
     RouterLinkActive,
     RouterOutlet,
-    HomeComponent,
+    HomeModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

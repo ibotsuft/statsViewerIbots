@@ -1,14 +1,25 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatButtonModule } from '@angular/material/button';
+import { PlayersStatsComponent } from '../../components/players-stats/players-stats.component';
 import { Subscription } from 'rxjs';
 import { FileShareService } from '../../services/file-share.service';
+import { GroupmatchesModule } from '../../components/groupmatches/groupmatches.module';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
+  selector: 'app-ibotsdata',
+  standalone: true,
+  imports: [
+    MatButtonToggleModule,
+    MatButtonModule,
+    PlayersStatsComponent,
+    GroupmatchesModule,
+  ],
+  templateUrl: './ibotsdata.component.html',
+  styleUrl: './ibotsdata.component.css',
 })
-export class HomeComponent implements OnInit {
+export class IbotsdataComponent implements OnInit {
   private fileSubscription: Subscription = new Subscription();
   data: any;
 

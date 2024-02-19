@@ -1,0 +1,16 @@
+<main class="dashboard__container">
+  <aside class="dashboard__menu">
+    <ul>
+      <li *ngFor="let item of items" (click)="selectItem(item)">
+        {{ item.label }}
+      </li>
+    </ul>
+  </aside>
+  <section class="dashboard__graphs">
+    <ng-container *ngIf="selectedItem">
+      <app-config-dashboard
+        *ngIf="selectedItem.id === 'config'"
+      ></app-config-dashboard>
+    </ng-container>
+  </section>
+</main>
