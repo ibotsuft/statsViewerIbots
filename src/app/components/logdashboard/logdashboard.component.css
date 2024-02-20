@@ -2,17 +2,18 @@
   width: calc(100vw - 50px);
   height: calc(90vh - 30px);
   margin: 15px;
-  border-radius: 15px;
+  border-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color: crimson;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .dashboard__menu {
-  width: 10%;
   background-color: aqua;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -25,17 +26,30 @@ ul {
 
 .dashboard__menu ul {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   height: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .dashboard__menu li {
-  padding-top: 5px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 13px;
+}
+
+.item__label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
   padding-bottom: 5px;
-  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.dashboard__menu li p {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 13px;
 }

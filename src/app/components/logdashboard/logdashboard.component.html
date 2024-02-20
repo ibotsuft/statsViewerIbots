@@ -2,7 +2,7 @@
   <aside class="dashboard__menu">
     <ul>
       <li *ngFor="let item of items" (click)="selectItem(item)">
-        {{ item.label }}
+        <p class="item__label">{{ item.label }}</p>
       </li>
     </ul>
   </aside>
