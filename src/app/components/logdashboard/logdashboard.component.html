@@ -7,10 +7,12 @@
     </ul>
   </aside>
   <section class="dashboard__graphs">
-    <ng-container *ngIf="selectedItem">
-      <app-config-dashboard
-        *ngIf="selectedItem.id === 'config'"
-      ></app-config-dashboard>
-    </ng-container>
+    <div class="inner__container">
+      <ng-container *ngIf="selectedItem">
+        <app-config-dashboard
+          *ngIf="selectedItem.id === 'config'"
+        ></app-config-dashboard>
+      </ng-container>
+    </div>
   </section>
 </main>

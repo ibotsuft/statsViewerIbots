@@ -59,7 +59,12 @@ ul {
   background-color: antiquewhite;
 }
 
-.dashboard__graphs {
+/* .dashboard__graphs {
   display: flex;
-  flex: 1;
+} */
+
+.inner__container {
+  padding: 15px;
+  background-color: chartreuse;
+  height: 100%;
 }

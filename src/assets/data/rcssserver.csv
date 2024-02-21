@@ -1,0 +1,16 @@
+time, left team, right team, left coach, right coach, left score, right score, left pen taken, right pen taken, left pen score, right pen score, cointoss
+2023-12-26 21:42:01, "iBots_Dev_1", "RoboCin_1", NULL, NULL, 0, 7, NULL, NULL, NULL, NULL, NULL
+2023-12-26 21:56:40, "iBots_Dev_2", "RoboCin_2", NULL, NULL, 1, 5, NULL, NULL, NULL, NULL, NULL
+2023-12-26 22:11:19, "RoboCin_3", "iBots_Dev_3", NULL, NULL, 5, 0, NULL, NULL, NULL, NULL, NULL
+2023-12-26 22:25:59, "iBots_Dev_4", "RoboCin_4", NULL, NULL, 1, 9, NULL, NULL, NULL, NULL, NULL
+2023-12-26 22:40:39, "iBots_Dev_5", "RoboCin_5", NULL, NULL, 0, 6, NULL, NULL, NULL, NULL, NULL
+2023-12-26 22:55:19, "iBots_Dev_6", "RoboCin_6", NULL, NULL, 1, 4, NULL, NULL, NULL, NULL, NULL
+2023-12-26 23:09:58, "iBots_Dev_7", "RoboCin_7", NULL, NULL, 0, 6, NULL, NULL, NULL, NULL, NULL
+2023-12-26 23:24:38, "iBots_Dev_8", "RoboCin_8", NULL, NULL, 0, 9, NULL, NULL, NULL, NULL, NULL
+2023-12-26 23:39:17, "iBots_Dev_9", "RoboCin_9", NULL, NULL, 0, 4, NULL, NULL, NULL, NULL, NULL
+2023-12-27 07:12:45, "iBots_Dev_10", "RoboCin_10", NULL, NULL, 0, 7, NULL, NULL, NULL, NULL, NULL
+2023-12-27 07:27:25, "iBots_Dev_11", "RoboCin_11", NULL, NULL, 0, 9, NULL, NULL, NULL, NULL, NULL
+2023-12-27 07:42:05, "RoboCin_12", "iBots_Dev_12", NULL, NULL, 2, 0, NULL, NULL, NULL, NULL, NULL
+2023-12-27 07:56:44, "iBots_Dev_13", "RoboCin_13", NULL, NULL, 0, 1, NULL, NULL, NULL, NULL, NULL
+2023-12-27 08:11:24, "iBots_Dev_14", "RoboCin_14", NULL, NULL, 0, 5, NULL, NULL, NULL, NULL, NULL
+2023-12-27 08:26:04, "iBots_Dev_15", "RoboCin_15", NULL, NULL, 0, 4, NULL, NULL, NULL, NULL, NULL

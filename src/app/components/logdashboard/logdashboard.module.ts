@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LogdashboardComponent } from './logdashboard.component';
 import { ContentModule } from '../content/content.module';
 import { OnInit } from '@angular/core';
-import { ConfigDashboardModule } from '../config-dashboard/config-dashboard.module';
-
+import { ConfigDashboardModule } from '../dashboards/config-dashboard/config-dashboard.module';
 import { ItemService } from '../../item.service';
 
 @NgModule({

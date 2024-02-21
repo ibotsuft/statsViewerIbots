@@ -1,6 +1,6 @@
 // item.service.ts
 import { Injectable } from '@angular/core';
-import { Item } from './item.interface';
+import { Item } from './interface/item.interface';
 
 @Injectable({
   providedIn: 'root',

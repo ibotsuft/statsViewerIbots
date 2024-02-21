@@ -1,0 +1,31 @@
+<h2 style="text-align: center">SETUP DASHBOARD</h2>
+
+<div class="visual">
+  <p>Upload CSV file:</p>
+  <div>upload csv file here</div>
+
+  <p>List of csv file samples:</p>
+  <select>
+    <option>File 1</option>
+    <option></option>
+    <option>File 2</option>
+    <option></option>
+  </select>
+
+  <div *ngFor="let csvFile of csvData">
+    <h3>CSV File:</h3>
+    <ul>
+      <li *ngFor="let row of csvFile">
+        {{ row }}
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--
+<div *ngFor="let csvFile of csvData">
+  <h3>CSV File:</h3>
+  <ul>
+    <li *ngFor="let line of csvFile">{{ line }}</li>
+  </ul>
+</div> -->
